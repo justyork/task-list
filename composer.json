@@ -1,0 +1,27 @@
+{
+    "name": "yorks/myframe",
+    "authors": [
+        {
+            "name": "york",
+            "email": "yorkshp@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.12.1",
+        "symfony/yaml": "^5.0",
+        "greg-md/php-orm": "dev-master",
+        "bephp/activerecord": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models",
+            "Core\\": "core",
+            "Controllers\\": "controllers",
+            "Libs\\": "libs"
+        },
+        "files": [
+            "config/main.php"
+        ]
+    }
+
+}
