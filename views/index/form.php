@@ -7,9 +7,6 @@
 /* @var $model \Models\Task */
 ?>
 
-<?php if ($model->hasErrors()): ?>
-    <?= \Libs\Html::errorSummary($model->getErrors()) ?>
-<?php endif ?>
 
 <?php $form = new \Libs\Form() ?>
 
